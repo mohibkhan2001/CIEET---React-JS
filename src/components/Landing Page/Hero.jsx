@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
+import { images, data } from "../../assets.js";
 
 const Hero = () => {
-    const ProjectInfo = ["100% Free Forever", "No Credit Card Required", "Unlimited Access"];
     return (
         <motion.div 
             className="hero-page flex flex-col gap-6 md:gap-10 items-center w-screen h-screen py-10 md:py-20 mb-10 md:mb-20 px-4"
@@ -37,7 +37,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
             >
                 Watch Demo
-                <img src="/src/assets/play.png" alt="Watch Demo" className="w-3 h-3 md:w-4 md:h-4" />
+                <img src={images.playIcon} alt="Watch Demo" className="w-3 h-3 md:w-4 md:h-4" />
             </motion.button>
             <motion.div 
                 className="flex flex-col sm:flex-row items-center gap-4 md:gap-8 px-4"
@@ -45,7 +45,7 @@ const Hero = () => {
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.8 }}
             >
-                {ProjectInfo.map((info,idx)=>{
+                {data.projectInfo.map((info,idx)=>{
                     return(
                         <motion.div 
                             key={idx} 
@@ -54,7 +54,7 @@ const Hero = () => {
                             animate={{ opacity: 1, x: 0 }}
                             transition={{ duration: 0.5, delay: 1 + idx * 0.1 }}
                         >
-                            <img src="/src/assets/checklist.png" alt="Feature" className="w-3 h-3 md:w-4 md:h-4"/>
+                            <img src={images.checklistIcon} alt="Feature" className="w-3 h-3 md:w-4 md:h-4"/>
                             <span>{info}</span>
                         </motion.div>
                     )
