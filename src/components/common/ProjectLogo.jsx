@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import { images } from "../../assets.js";
 
 const ProjectLogo = () => {
   const navigateToladningPage = useNavigate();
@@ -8,7 +9,7 @@ const ProjectLogo = () => {
       {/* Logo container */}
       <div className="w-8 h-8 md:w-10 md:h-10 flex items-center justify-center hover:scale-105 transition-all" onClick={() => navigateToladningPage("/")}>
         <img
-          src="/src/assets/studying.png"
+          src={images.studyingIcon}
           alt="CIEET Logo"
           className="w-8 h-8 md:w-10 md:h-10 object-contain"
         />
