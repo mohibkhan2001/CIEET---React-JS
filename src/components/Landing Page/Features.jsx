@@ -24,7 +24,7 @@ const Features = () => {
                         {/* Icon */}
                         <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center rounded-xl bg-gradient-to-br from-indigo-100 to-indigo-200 mb-4 group-hover:scale-110 transition-transform duration-300">
                             <img
-                                src={images[feature.icon]}
+                                src={feature.icon}
                                 alt={feature.title}
                                 className="w-6 h-6 md:w-7 md:h-7"
                             />
