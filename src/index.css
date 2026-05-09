@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+
+
+*{
+    font-family: "Manrope", sans-serif;
+}
+
+@theme {
+  /* Primary Brand Colors */
+  --color-primary: #3b82f6;
+  --color-primary2: #162456;
+  --color-secondary: #14b8a6;
+
+  /* Brand Gradient */
+  --color-gradient-start: #2563eb;
+  --color-gradient-end: #14b8a6;
+
+  /* Background Colors */
+  --color-bg-main: #ffffff;
+  --color-bg-light: #f9fafb;
+  --color-bg-card: #f3f4f6;
+  --color-bg-selected: #eff6ff;
+  --color-bg-accent: #f0fdfa;
+
+  /* Text Colors */
+  --color-text-primary: #111827;
+  --color-text-secondary: #4b5563;
+  --color-text-muted: #6b7280;
+  --color-text-placeholder: #9ca3af;
+
+  /* Success */
+  --color-success: #22c55e;
+  --color-success-dark: #16a34a;
+  --color-success-darker: #15803d;
+  --color-success-bg: #dcfce7;
+  --color-success-light: #f0fdf4;
+
+  /* Warning */
+  --color-warning: #f97316;
+  --color-warning-dark: #ea580c;
+  --color-warning-bg: #ffedd5;
+  --color-warning-light: #fef3c7;
+  --color-warning-text: #a16207;
+
+  /* Error */
+  --color-error: #ef4444;
+  --color-error-dark: #dc2626;
+  --color-error-darker: #b91c1c;
+  --color-error-bg: #fee2e2;
+
+  /* Purple Accent */
+  --color-purple: #a855f7;
+  --color-purple-dark: #9333ea;
+  --color-purple-bg: #f3e8ff;
+
+  /* Blue Variants */
+  --color-blue-light: #dbeafe;
+  --color-blue-main: #2563eb;
+
+  /* Teal Variants */
+  --color-teal-light: #ccfbf1;
+  --color-teal-main: #0d9488;
+
+  /* Chart Colors */
+  --color-chart-a-star: #10b981;
+  --color-chart-a: #3b82f6;
+  --color-chart-b: #f59e0b;
+  --color-chart-c: #ef4444;
+
+  /* UI Elements */
+  --color-border: #e5e7eb;
+  --color-hover: #f9fafb;
+  --color-focus: #3b82f6;
+
+  /* Shadow */
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
