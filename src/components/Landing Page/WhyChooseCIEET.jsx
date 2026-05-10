@@ -61,7 +61,7 @@ const WhyChooseCIEET = () => {
                             {/* Icon */}
                             <div className="w-10 h-10 md:w-12 md:h-12 flex-shrink-0 rounded-xl bg-gradient-to-br from-indigo-100 to-blue-100 flex items-center justify-center">
                                 <img
-                                    src={images[item.icon]}
+                                    src={item.icon}
                                     alt={item.title}
                                     className="w-5 h-5 md:w-6 md:h-6"
                                 />

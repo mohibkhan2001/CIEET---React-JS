@@ -40,17 +40,6 @@ const SignupPage = () => {
                                     type="password"
                                     placeholder="Password"
                                 />
-                                <div className="flex gap-10">
-                                    <div className="flex items-center gap-2">
-                                        <input type="radio" name="role" id="teacher" value="teacher" />
-                                        <label htmlFor="teacher">Teacher</label>
-                                    </div>
-
-                                    <div className="flex items-center gap-2">
-                                        <input type="radio" name="role" id="student" value="student" />
-                                        <label htmlFor="student">Student</label>
-                                    </div>
-                                </div>
                                 <button className="mt-5 tracking-wide font-semibold bg-blue-900 text-gray-100 w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
                                     <svg
                                         className="w-6 h-6 -ml-2"
