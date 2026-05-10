@@ -16,6 +16,9 @@ import BookIcon from "./assets/Book2.png";
 import FileIcon from "./assets/file.png";
 import GraphIcon from "./assets/chart.png";
 import MessageIcon from "./assets/message.png";
+import BellIcon from "./assets/bell.png";
+import UserMaleIcon from "./assets/user-male.png";
+import DownArrowIcon from "./assets/down-arrow.png";
 
 // Export images object
 export const images = {
@@ -36,6 +39,9 @@ export const images = {
   FileIcon,
   GraphIcon,
   MessageIcon,
+  BellIcon,
+  UserMaleIcon,
+  DownArrowIcon
 };
 
 // Data arrays
@@ -120,25 +126,9 @@ export const data = {
   ],
 
   StudentNavItems: [
-    {
-      icon: HomeIcon,
-      name: "Dashboard",
-    },
-    {
-      icon: BookIcon,
-      name: "Question Bank",
-    },
-    {
-      icon: FileIcon,
-      name: "Exam Generator",
-    },
-    {
-      icon: GraphIcon,
-      name: "Reports",
-    },
-    {
-      icon: MessageIcon,
-      name: "Messages",
-    },
+    { name: "Home", icon: images.HomeIcon },
+    { name: "My Exams", icon: images.BookIcon },
+    { name: "Results", icon: images.GraphIcon },
+    { name: "Messages", icon: images.MessageIcon },
   ],
 };
